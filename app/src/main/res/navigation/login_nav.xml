@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_nav"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.justforlocks.ui.auth.loginFragment"
+        android:label="loginFragment"
+        tools:layout="@layout/fragment_login"/>
+    <fragment
+        android:id="@+id/otpFragment"
+        android:name="com.example.justforlocks.ui.auth.otpFragment"
+        android:label="otpFragment"
+        tools:layout="@layout/fragment_otp"/>
+    <fragment
+        android:id="@+id/userinfoFragment"
+        android:name="com.example.justforlocks.ui.auth.userinfoFragment"
+        android:label="userinfoFragment"
+        tools:layout="@layout/fragment_userinfo"/>
+</navigation>

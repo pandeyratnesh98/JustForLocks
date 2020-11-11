@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "126544148329",
+    "firebase_url": "https://justforlocks-4b52a.firebaseio.com",
+    "project_id": "justforlocks-4b52a",
+    "storage_bucket": "justforlocks-4b52a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126544148329:android:c738c05aa0b30e7f7b6ff8",
+        "android_client_info": {
+          "package_name": "com.example.justforlocks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "126544148329-3m4dis558s6fd3qi1c286mp2n6t8qfte.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.justforlocks",
+            "certificate_hash": "d36efcd8b994d53a77d395f973bd3f83e64797be"
+          }
+        },
+        {
+          "client_id": "126544148329-90eok6u6n25b7n6ebbm6vbtd29t5jolp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0MM46jMlqEOF_79R2FUqdOaqAsYLo7Dg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "126544148329-90eok6u6n25b7n6ebbm6vbtd29t5jolp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

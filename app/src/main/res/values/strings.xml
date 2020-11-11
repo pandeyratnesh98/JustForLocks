@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Justforlocks</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textotp">OTP has been sent to your mobile phone. Please enter it below</string>
+    <string name="resend_code">Resend code</string>
+    <string name="verify">Verify</string>
+    <string name="askname">What is your good Name?</string>
+    <string name="askemail">What is your email?</string>
+    <string name="reasonphoto">We need your picture to show people how attractive you are.</string>
+    <string name="choosepicturetext">Tap to choose your profile picture</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="viewmodel"
+            type="com.example.justforlocks.ui.home.HomeViewModel" />
+    </data>
+    <RelativeLayout
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".home.Profile"
+       >
+        <androidx.appcompat.widget.Toolbar
+            android:background="@drawable/toolbargradient"
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            >
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Home"
+                android:textColor="@android:color/white"
+                android:textSize="21sp"
+                android:paddingStart="90dp"
+                android:paddingEnd="90dp"
+                />
+        </androidx.appcompat.widget.Toolbar>
+
+        <TextView
+          android:textAlignment="center"
+          android:paddingStart="25dp"
+          android:paddingEnd="25dp"
+         android:id="@+id/welcomemessage"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textStyle="italic"
+          android:textSize="27sp"
+        android:layout_centerInParent="true"
+          />
+
+    </RelativeLayout>
+</layout>

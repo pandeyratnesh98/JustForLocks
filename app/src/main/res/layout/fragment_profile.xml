@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="viewmodel"
+            type="com.example.justforlocks.ui.home.HomeViewModel" />
+    </data>
+    <LinearLayout
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".home.Profile"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.Toolbar
+            android:background="@drawable/toolbargradient"
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_collapseMode="pin"
+            >
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Profile"
+                android:textColor="@android:color/white"
+                android:textSize="21sp"
+                android:paddingStart="90dp"
+                android:paddingEnd="90dp"
+                />
+        </androidx.appcompat.widget.Toolbar>
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/profpic"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:scaleType="fitXY"
+            />
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+            <TextView
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textSize="21sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Name: "
+                android:layout_weight="0.5"/>
+            <TextView
+               android:id="@+id/name"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textSize="21sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7"/>
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:text="Email:"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textSize="21sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"/>
+            <TextView
+               android:id="@+id/email"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textSize="21sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7"/>
+
+        </LinearLayout>
+
+        <Button
+            android:onClick="@{viewmodel.logout}"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="Signout"
+            android:background="@drawable/button_design"
+            android:textColor="@android:color/white"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"/>
+
+    </LinearLayout>
+</layout>
